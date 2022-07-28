@@ -1,0 +1,201 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #40454f;   
+    margin: 0;
+    padding: 0;
+    background-color: #f4f5f7;
+}
+
+.section_one button, .section_two button, .footer button {
+    background-color: rgb(77, 77, 182) !important;
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.s {
+    background-color: rgb(77, 77, 182);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+header nav{
+    background-color: #000000;
+    color: #fff;
+}
+
+header .navbar-nav .nav-item {
+    padding-left: 40px;
+}
+
+header nav a, .header .navbar-nav .nav-item a {
+    color: #fff;
+}
+
+.header .navbar-nav .start {
+    border: 1px solid white;
+}
+
+.section_one {
+    background-color: #000000;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    position: relative;
+}
+
+.section_one h1 {
+    color: #fff;
+}
+
+/* .section_one .task_progress {
+    position: absolute;
+} */
+.section_one .img_group .woman {
+    position: absolute;
+    width: 20% !important;
+    height: 70%;
+    border: 2px solid red;
+}
+
+.section_two {
+    margin-top: 100px;
+    color: #000000;
+    margin-bottom: 5%;
+}
+
+.section_two h1 {
+    font-style: 1.5em;
+    font-weight: bold;
+    width: 90%;
+}
+
+.section_two p {
+    width: 80%;
+}
+
+.olivia {
+    width: 80%;
+    border-bottom: 1px solid rgb(185, 180, 180);
+}
+
+.olivia img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.olivia h3 {
+    font-style: 0.7em;
+    font-weight: bold;
+}
+.olivia p {
+    font-style: 0.5em;
+    color: gray;
+}
+
+.number {
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.number .num{
+    color: #000;
+    font-weight: bold;
+}
+
+.number .info {
+    color: gray;
+}
+
+.card-group .col-6{
+    background-color: #fff;
+    border: 10px solid #f4f5f7;
+    padding: 20px;
+    width: 50%;
+}
+
+.card-group i {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.card-group h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.section_three .header {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.section_three span {
+    color: gray;
+    margin-right: 20px;
+}
+
+.section_three .accordion {
+    margin-top: 50px;
+}
+
+.section_four .one {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.section_four {
+    margin: 5% 0;
+}
+
+.section_four img {
+    width: 70%;
+    height: 100%;
+}
+
+.section_four .info .text{
+    width: 80%;
+}
+
+.section_four .info .name {
+    color: #000000;
+    margin-top: 20%;
+    font-style: 1em;
+}
+.section_four .info .span {
+    color: gray;
+    font-style: 0.7em;
+}
+
+/* .section_four .info .name span {
+    margin: 20px;
+} */
+
+@media (max-width: 450px) {
+    .section_four .info {
+        margin-top: 20%;
+    }
+    .section_four .info .name {
+        margin-top: 0;
+    
+    }
+}
+
+
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+
+    padding-top: 3%;
+}
+
+.footer .two {
+    border-bottom: 1px solid rgb(207, 202, 202);
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
